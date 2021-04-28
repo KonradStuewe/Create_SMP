@@ -329,7 +329,7 @@
 
 [tweaks]
 	"Armed Armor Stands" = true
-	"Lock Rotation" = false
+	"Lock Rotation" = true
 	"Dragon Scales" = false
 	"Replace Scaffolding" = false
 	"Axe Leaf Harvesting" = false
@@ -337,7 +337,7 @@
 	"Dirt To Path" = true
 	"Simple Harvest" = false
 	"Hoe Harvesting" = false
-	"Reacharound Placing" = false
+	"Reacharound Placing" = true
 	"Villagers Follow Emeralds" = true
 	"Compasses Work Everywhere" = true
 	"Skull Pikes" = false
@@ -349,8 +349,8 @@
 	"Improved Sleeping" = false
 	"Infinity Bucket" = false
 	"Springy Slime" = false
-	Emotes = true
-	"Utility Recipes" = false
+	"Emotes" = true
+	"Utility Recipes" = true
 	"Pat The Dogs" = true
 	"Enhanced Ladders" = false
 	"Snow Golem Player Heads" = false
@@ -393,7 +393,7 @@
 		#Can a dispenser be crafted by adding a bow to a dropper?
 		"Enable Dispenser" = true
 		#Can cookies, paper, and bread be crafted in a 2x2 crafting table?
-		"Bent Recipes" = true
+		"Bent Recipes" = false
 		#Can Rotten Flesh and Poisonous Potatoes be composted?
 		"Compostable Toxins" = true
 		#Can bones be smelted down to bone meal?
