@@ -93,32 +93,32 @@
 [building]
 	"Duskbound Blocks" = false
 	"Bamboo Mat" = false
-	"Cobblestone Bricks" = false
+	"Cobblestone Bricks" = true
 	"More Brick Types" = false
 	"Gold Bars" = false
 	"Soul Sandstone" = false
-	"Burn Vines" = false
+	"Burn Vines" = true
 	"Quilted Wool" = false
-	"Compressed Blocks" = false
+	"Compressed Blocks" = true
 	Stools = false
 	Thatch = false
-	"Variant Chests" = false
-	"Variant Ladders" = false
+	"Variant Chests" = true
+	"Variant Ladders" = true
 	Hedges = false
 	"Vertical Slabs" = false
 	Shingles = false
 	"Nether Brick Fence Gate" = true
-	"Item Frames" = false
+	"Item Frames" = true
 	"Stained Planks" = false
-	"Wooden Posts" = false
+	"Wooden Posts" = true
 	"Leaf Carpet" = false
 	"Lit Lamp" = false
-	"Vertical Planks" = false
+	"Vertical Planks" = true
 	Midori = false
 	"Tie Leads To Fences" = true
 	"Shallow Dirt" = false
-	"More Stone Variants" = false
-	"Framed Glass" = false
+	"More Stone Variants" = true
+	"Framed Glass" = true
 	"Tallow And Candles" = false
 	Turf = false
 	"Paper Decor" = false
@@ -127,13 +127,13 @@
 	"Sturdy Stone" = false
 	"More Potted Plants" = true
 	Grate = false
-	"Variant Bookshelves" = false
+	"Variant Bookshelves" = true
 
 	[building.cobblestone_bricks]
-		"Enable Basalt Bricks" = false
-		"Enable Netherrack Bricks" = false
+		"Enable Basalt Bricks" = true
+		"Enable Netherrack Bricks" = true
 		"Enable Dirt Bricks" = false
-		"Enable Blackstone Bricks" = false
+		"Enable Blackstone Bricks" = true
 
 	[building.rope]
 		"Enable Dispenser Behavior" = false
@@ -243,7 +243,7 @@
 	"Bottled Cloud" = false
 	"Color Runes" = false
 	"Ancient Tomes" = false
-	"Slime In A Bucket" = false
+	"Slime In A Bucket" = true
 	Camera = false
 	Trowel = true
 
@@ -339,7 +339,7 @@
 	"Hoe Harvesting" = false
 	"Reacharound Placing" = true
 	"Villagers Follow Emeralds" = true
-	"Compasses Work Everywhere" = true
+	"Compasses Work Everywhere" = false
 	"Skull Pikes" = false
 	"Note Block Mob Sounds" = false
 	"Double Door Opening" = true
