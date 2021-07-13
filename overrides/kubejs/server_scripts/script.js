@@ -5,12 +5,23 @@ settings.logRemovedRecipes = true
 settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
 
-console.info('Hello, World! (You will see this line every time server resources reload)')
+console.info('Removing Stuff you love to spite you <3')
 
 onEvent('recipes', event => {
 	// Change recipes here
 	event.remove({output: 'immersiveengineering:crate'})
 	event.shapeless('pamhc2foodextended:rawtofaconitem', ['pamhc2foodcore:cuttingboarditem', 'pamhc2foodextended:firmtofuitem', 'pamhc2foodcore:cookingoilitem', 'pamhc2foodcore:saltitem', 'pamhc2foodcore:flouritem', 'minecraft:sugar'])
+	event.remove({output: 'naturescompass:naturescompass'})
+	event.shaped('naturescompass:naturescompass', [
+	'SLS',
+    'CEC',
+    'SLS'
+	], {
+    S: '#minecraft:saplings',
+    L: '#minecraft:logs',
+	C: 'minecraft:compass',
+	E: 'minecraft:end_crystal' 
+  })
 })
 
 onEvent('item.tags', event => {
